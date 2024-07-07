@@ -15,6 +15,7 @@
 
 * {
   box-sizing: border-box;
+  _border: 1px solid red;
 }
 
 body {
@@ -226,11 +227,17 @@ fieldset {
   margin: 1% 10%;
   padding: 1%;
   font-size: 1.5rem;
-  background-color: var(--gris-transparente);
+  background-color: var(--dark);
   color: var(--light);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   border: none;
   border-radius: 10px;
+}
+
+.divNiveles{
+  background-color: var(--gris-transparente);
+  padding: 20px;
+  margin: 50px;
 }
 
 .nivel {
@@ -357,37 +364,7 @@ a {
   font-size: 2rem;
 }
 
-/*---------JUEGO----------------*/
-.container {
-  margin: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
 
-.card {
-  width: 10rem;
-  font-size: 5rem;
-  font-weight: bold;
-  text-align: center;
-  color: #fffd;
-  background-color: var(--dark);
-  border-radius: 1.5rem;
-  padding: 3rem 2rem;
-  outline: 0.5rem solid var(--dark);
-  border: 0.2rem solid var(--light-tranparencia);
-  box-shadow: 1rem 1rem 1rem #0006;
-  max-height: 250px;
-}
-
-.card p {
-  margin-top: 0;
-}
-
-.card-front {
-  background-color: #349;
-  outline: 0.5rem solid #127;
-}
 
 /*------MEDIA--------*/
 

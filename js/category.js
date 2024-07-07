@@ -26,7 +26,7 @@ async function mostrarPoses() {
 
         copia.querySelector(
           "a"
-        ).href = `detalles.html?name=${asana.english_name}`;
+        ).href = `details.html?name=${asana.english_name}`;
         copia.querySelector(".imagenPose").src = asana.url_svg;
         copia.querySelector(".imagenPose").alt = asana.english_name;
         copia.querySelector(".nombrePose").innerText = asana.english_name;
@@ -40,3 +40,5 @@ async function mostrarPoses() {
 checkbox.forEach((checkbox) => {
   checkbox.addEventListener("change", mostrarPoses);
 });
+
+

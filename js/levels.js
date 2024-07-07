@@ -47,7 +47,7 @@ async function mostrarAsanas(seccion, endpoint) {
     }
     copia2.querySelector(
       "a"
-    ).href = `detalles.html?id=${asana.id}&level=${levelParam}`;
+    ).href = `details.html?id=${asana.id}&level=${levelParam}`;
     copia2.querySelector("img").src = asana.url_svg;
     fragment2.appendChild(copia2);
   }

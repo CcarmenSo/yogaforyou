@@ -74,3 +74,4 @@ document.addEventListener("DOMContentLoaded", () => {
     .querySelector("button")
     .addEventListener("click", () => window.history.back());
 });
+console.log("funciona")
