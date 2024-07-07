@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asanas por nivel</title>
+    <script src="../js/niveles.js" defer></script>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../favicon/favicon-16x16.png">
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Asanas por nivel de dificultad</h1>
+        <p>
+          Aqui podras encontrar todas las asanas que necesitas clasificadas por
+          nivel de dificultad, y podras acceder a la información detallada.
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="categorias.html">Asanas by category</a></li>
+          <li><a href="niveles.html">Asanas by level</a></li>
+          <li><a href="basics.html">Basic concepts</a></li>
+      
+        </ul>
+      </nav>
+    </header>
+    <main class="mainGaleria">
+      <button id="botonIniciacion" class="botonNivel">Beginner</button>
+      <section id="iniciacion" class="nivel"></section>
+      <button id="botonIntermedio" class="botonNivel">Intermediate</button>
+      <section id="intermedio" class="nivel"></section>
+      <button id="botonAvanzado" class="botonNivel">Advanced</button>
+      <section id="avanzado" class="nivel"></section>
+    </main>
+    <footer>
+      <div class="izquierda">
+        <p>
+          Contacto: <a href="mailto:carsomu87@gmail.com">carsomu87@gmail.com</a>
+        </p>
+        <p>Derechos reservados &copy; Carmen</p>
+        <a
+          class="gitHub"
+          href="https://github.com/alexcumplido/yoga-api"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Enlace a la API</a
+        >
+      </div>
+
+      <div class="derecha">
+        <a href="#">Subir</a>
+        <a
+          href="https://github.com/CcarmenSo"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+  <template id="templateNiveles">
+    <a href="">
+      <img class="imagenGaleria" src="" alt="" />
+    </a>
+  </template>
+</html>

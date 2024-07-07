@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categorias</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="../js/categorias.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../favicon/favicon-16x16.png">
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Asanas por categorias</h1>
+        <p>
+          Aqui podras encontrar todas las asanas que necesitas clasificadas por
+          categorias
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="categorias.html">Asanas por categorias</a></li>
+          <li><a href="niveles.html">Asanas por nivel</a></li>
+          <li><a href="conceptosbasicos.html">Conceptos básicos</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main class="mainCategorias">
+      <div class="contenedorCategorias">
+        <div class="filtroCategoria">
+          <fieldset>
+            <h3>CATEGORIES:</h3>
+            <p>
+              <input
+                class="input"
+                type="checkbox"
+                required
+                id="core"
+                value="Core Yoga"
+              />
+              Core Yoga
+            </p>
+            <p>
+              <input
+                class="input"
+                type="checkbox"
+                required
+                id="Seated"
+                value="Seated Yoga"
+              />
+              Seated Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Strengthening
+              Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Chest Opening
+              Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Backbend Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Forward Bend Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Hip Opening Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Standing Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Restorative Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Arm Balance Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Balancing Yoga
+            </p>
+            <p>
+              <input class="input" type="checkbox" required /> Inversion Yoga
+            </p>
+          </fieldset>
+        </div>
+
+        <div class="posesYoga"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="izquierda">
+        <p>
+          Contacto: <a href="mailto:carsomu87@gmail.com">carsomu87@gmail.com</a>
+        </p>
+        <p>Derechos reservados &copy; Carmen</p>
+        <a
+          class="gitHub"
+          href="https://github.com/alexcumplido/yoga-api"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Enlace a la API</a
+        >
+      </div>
+
+      <div class="derecha">
+        <a href="#">Subir</a>
+        <a
+          href="https://github.com/CcarmenSo"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+  <template id="templateCategorias">
+    <a href="" class="enlacePose">
+      <div class="tarjetaPose">
+        <img class="imagenPose" src="" alt="" />
+        <p class="nombrePose"></p>
+      </div>
+    </a>
+  </template>
+</html>
