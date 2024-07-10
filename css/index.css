@@ -388,27 +388,129 @@ a {
     width: 85%;
     margin: 5% auto;
    }
-}
-nav{
-  display:block;
-}
+   nav{
+    display:block;
+  }
+  .containerMenu{
+    margin: 0 auto;
+  }
+  .contenedorCategorias {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .posesYoga {
+    width: 100%;
+  }
+
+  .enlacePose,
+  .filtroCategoria {
+    width: 60%;
+  }
+  a {
+    width: 25%;
+  }
+
+  #intermedio a {
+    width: 20%;
+  }
+
+  #avanzado a {
+    width: 30%;
+  }
+  .concepto{
+    display:block
+   }
+   .concepto img{
+    width: 100%;
+   }
+   .divNiveles,
+    #iniciacion,
+    #intermedio,
+    #avanzado{
+    width: 100%;
+    margin: 0 auto;
+   }
+   .concepto{
+    display:block
+   }
+   .concepto img{
+    width: 100%;
+   }
+  
+  }
+
 @media only screen and (max-width: 480px) {
   h1{
     font-size: 2.5rem; ;
    }
    header p{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+   }
+   
+   p{
+    font-size: 0.9rem;
+   }
+   nav li a{
+    font-size: 1.2rem;
    }
 
   
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-
+  h1{
+    font-size: 2.9rem; ;
+   }
+   header p{
+    font-size: 1.4rem;
+   }
+  
+   p{
+    font-size: 1.6rem;
+   }
+   nav li a{
+    font-size: 1.6rem;
+   }
+   .tarjetaPose{
+    height: 100%;
+   }
+   .imagenPose{
+    width: 60%;
+   }
+   .filtroCategoria p{
+   font-size: 1.25rem;
+   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 990px){
+  h1{
+    font-size: 3.5rem; ;
+   }
+   header p{
+    font-size: 1.9rem;
+   }
   
+   p{
+    font-size: 2.1rem;
+   }
+   nav li a{
+    font-size: 1.9rem;
+   }
+   .tarjetaPose{
+    height: 100%;
+   }
+   .imagenPose{
+    width: 60%;
+   }
+   .filtroCategoria p{
+   font-size: 1.25rem;
+   }
+  
+   button{
+    font-size: 1.7rem;
+   }
+   
 }
 @media only screen and (min-width: 1800px) {
   
