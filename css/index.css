@@ -390,6 +390,13 @@ a {
    }
    nav{
     display:block;
+    width: 100%;
+   
+ 
+    
+  }
+  nav ul{
+    margin-right: 15%;
   }
   .containerMenu{
     margin: 0 auto;
