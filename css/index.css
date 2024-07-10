@@ -15,7 +15,7 @@
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  _border: 1px solid red;
 }
 
 body {
@@ -510,70 +510,66 @@ a {
    button{
     font-size: 1.7rem;
    }
-   
+   .menu{
+    width: 50%;
+    _margin: 0;
+    padding: 0% 0% 35% 0%;
+    }
+    .menu p{
+     font-size: 1rem;
+    }
+    .menu button{
+      width: 120px;
+      height:  30px;
+      font-size: 0.9rem;
+    }
+   footer p{
+    font-size: 1rem;
+   }
+}
+@media only screen and (min-width: 991px) and (max-width: 1799px){
+
 }
 @media only screen and (min-width: 1800px) {
   
-
-
-}
-
-
-
-
-
-/*
-@media (max-width: 700px) {
-  a {
-    width: 25%;
-  }
-
-  #intermedio a {
-    width: 20%;
-  }
-
-  #avanzado a {
-    width: 30%;
-  }
-
-  .contenedorCategorias {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .posesYoga {
-    width: 100%;
-  }
-
-  .enlacePose,
-  .filtroCategoria {
+  h1{
+    font-size: 3.5rem; ;
+   }
+   header p{
+    font-size: 1.9rem;
+   }
+  
+   p{
+    font-size: 2.1rem;
+   }
+   nav li a{
+    font-size: 1.9rem;
+   }
+   .tarjetaPose{
+    height: 100%;
+   }
+   .imagenPose{
     width: 60%;
-  }
+   }
+   .filtroCategoria p{
+   font-size: 1.25rem;
+   }
+  
+   button{
+    font-size: 1.7rem;
+   }
+   .menu{
+   width: 27%;
+   _margin: 0;
+   padding: 0% 0% 27% 0%;
+   }
+   .menu p{
+    font-size: 1.4rem;
+   }
 
-  .containerMenu {
-    margin: 4% 2% 8%;
-  }
-
-  .menu {
-    width: 80%;
-  }
-
-  nav {
-    padding: 1%;
-  }
-
-  ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  li {
-    margin: 5px 0;
-  }
-
-  .conceptosBasicos img {
-    height: 150px;
-    margin-top: 4rem;
-  }
 }
-*/
+
+
+
+
+
