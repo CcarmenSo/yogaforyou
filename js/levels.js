@@ -65,3 +65,5 @@ bIntermedio.addEventListener("click", () =>
 bAvanzado.addEventListener("click", () =>
   mostrarAsanas(seccionAvanzado, avanzado)
 );
+
+console.log("funciona")

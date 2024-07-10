@@ -42,3 +42,4 @@ checkbox.forEach((checkbox) => {
 });
 
 
+console.log("funciona")
